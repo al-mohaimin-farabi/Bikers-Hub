@@ -1,0 +1,152 @@
+/* Global Css */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.my-btn{
+    background-color:#E76F51;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #E76F51;
+    color: #fff;
+    transition: .5s all linear;
+}
+.my-btn.not-active{
+    background-color:transparent;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.my-btn.not-active:hover{
+    background-color:#E76F51;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #E76F51;
+    color: #fff;
+}
+.my-text-color{
+    color:#E76F51;
+}
+.inner_title--box h2{
+    font-weight:600;
+    font-size:48px;
+    line-height:58px;
+    color:#0D0925;
+}
+.inner_title--box{
+    width: 100%;
+}
+
+.my-f-size{
+    font-size: 20px !important;
+}
+/* Global css end */
+
+/* header section start*/
+.header{
+    background-color:#264653;
+    width: 100%;
+}
+.color-animation{
+    animation: color-r 4s linear infinite ;
+    font-weight: 800;
+    font-size: clamp(28px, 5vw, 2rem);
+    text-shadow: 2px 1px #F0F0F0;
+}
+@keyframes color-r {
+    0%{
+        color:#A0D468;
+      }
+      
+      20%{
+        color:#4FC1E9;
+      }
+      
+      40%{
+        color:#184557;
+      }
+      
+      60%{
+        color:#FC6E51;
+      }
+      
+      80%{
+        color:#ED5565;
+      }
+      
+      100%{
+        color:#AC92EC;
+ }
+ 
+}
+.my-image {
+    width:85px; 
+    display: block;
+    height: unset;
+    filter:invert(1);
+}
+.hero-area h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+.hero-area p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* header ENd */
+
+/* fetured bike section start */
+.fetured_bike .inner_title--box p{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+}
+.fetured_bike .inner_title--box p::before{
+    position: absolute;
+    content:'';
+    background-color:#E76F51;
+    width:8%;
+    height:2px;
+    left:50%;
+    bottom:-5px;
+    transform: translateX(-50%);
+    transition: .5s all ease-in-out;
+}
+.fetured_bike .inner_title--box p:hover::before{
+    position: absolute;
+    content:'';
+    background-color:#E76F51;
+    width:12%;
+    height:2px;
+    left:50%;
+    bottom:-5px;
+    transform: translateX(-50%);
+}
+.fetured_bike .img-grey{
+    filter: grayscale(100%);
+}
+/* fetured bike section END */
+
+
+/* Client review start */
+.client-img{
+    width: 225px;
+    height: 225px;
+}
+/* Client review end */
+
+/* Frequently Asked Questions start */
+.accordion-button:not(.collapsed) {
+    color: #198754;
+    background-color: transparent !important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+/* Frequently Asked Questions end */

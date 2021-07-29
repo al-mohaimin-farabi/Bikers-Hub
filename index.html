@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello, world!</title>
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- My CSS -->
+     <link rel="stylesheet" href="Custom_css/style.css">
+
+     <!-- Google fonts [font-family: 'Poppins', sans-serif;] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Fontawsome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <header class="header">
+      <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+              <a class="navbar-brand text-capitalize d-flex align-items-center flex-md-row flex-lg-row flex-sm-column " href="#">
+                  <img class="my-image" src="images/logo.png" alt="">
+                 <span class="align-middle mx-2 color-animation"> bikers Hub</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white btn my-btn ms-lg-3 px-4" href="#">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Hero banner start -->
+          <section class="container py-4 hero-area">
+            <div class="row g-5 d-flex align-items-center justify-content-md-center justify-content-sm-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 ">
+                    <div class="title-box">
+                        <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="text-white">Honda CBR 300R</h1>
+                        <p class="text-white">Honda CBR300R is expected to launch in India in December 2021 in the expected price range of ₹ 2,00,000 to ₹ 2,30,000.</p>
+                        <a href="" class="text-white px-4 py-2 btn my-btn" data-bs-toggle="modal" data-bs-target="#Purchase">Purchase</a>
+
+                        <!-- Modal -->
+                      <div class="modal fade" id="Purchase" tabindex="-1" aria-labelledby="Purchase" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-success" id="Purchase">Are You Sure <span class="text-danger">?</span></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-capitalize text-white">If you press carry on This Bike Will be purchased.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                              <a href="https://powersports.honda.com/street/sport/cbr300r" target="_blank" type="button" class="btn my-btn py-2 text-white">Carry On</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+          </section>
+    </header>
+
+    <main class="px-1 py-3">
+
+      <section class="container fetured_bike mt-4">
+
+         <div class="inner_title--box mb-5 text-center">
+            <h2 class="text-dark">Fetured Bikes 2021</h2>
+            <p class="my-text-color ">Best bike collection</p>
+         </div>
+
+         <!-- fetured image -->
+         <div class="row gy-4 gx-5 ">
+           <div class="col-lg-4 col-md-12 col-12"><img class="img-fluid w-md-75 img-grey" src="images/feature-bike.jpg" alt=""></div>
+           <div class="col-lg-4 col-md-12 col-12"><img class="img-fluid w-md-75" src="images/feature-bike.jpg" alt=""></div>
+           <div class="col-lg-4 col-md-12 col-12"><img class="img-fluid w-md-75 img-grey" src="images/feature-bike.jpg" alt=""></div>
+         </div>
+
+      </section>
+
+      <section class="container latest-news my-5">
+
+       <div class="inner_title--box my-4 text-sm-start text-lg-center text-md-center">
+          <h2 class="text-dark">Fetured Bikes 2021</h2>
+       </div>
+
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+              <img src="images/bike-1.png" class="img-fluid p-2 mx-auto" alt="...">
+              <div class="card-body">
+              <h5 class="card-title text-capitalize text-danger">Ducati XDIAVEL S-73</h5>
+              <p class="card-text w-100 h-65 my-f-size">The performance of the chassis is equally impressive, A bike with cruiser-like steering geometry and a huge rear tyre really shouldn't handle so well. Its damn good bike for most of the raider.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a href="#" class="btn my-btn mb-1">Read More</a>
+            </div>
+          </div>    
+        </div>
+        <div class="col">
+          <div class="card h-100">
+              <img src="images/bike-2.png" class="img-fluid p-2 mx-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-capitalize text-danger">cruiser & Scooters</h5>
+                <p class="card-text w-100 h-65 my-f-size">Your Bike Should be as Unique as You Are.
+                  Motorcycles have always been about freedom and passion, and nothing showcases that like a cruiser. They offer low seat heights, wide, user-friendly powerbands, and a laid-back, comfortable riding position.</p>
+                
+              </div>
+              <div class="card-footer bg-transparent border-0">
+                <a href="#" class="btn my-btn not-active mb-1">Read More</a>
+              </div>
+            </div>    
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/bike-3.png" class="img-fluid p-2 mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-capitalize text-danger">2017 Ducati XDiavel S</h5>
+              <p class="card-text w-100 h-65 my-f-size">The performance of the chassis is equally impressive, a bike with cruiser-like steering geometry and a huge rear tyre really shouldn't handle so well.Inevitably, the Diavel feels slightly cumbersome in very tight bends, but most of the time it's remarkably composed.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <a href="#" class="btn my-btn not-active mb-1">Read More</a>
+            </div>
+          </div>    
+        </div>
+       
+      </section>
+
+      <!-- client review -->
+      <section class="container client-review">
+
+        <div class="inner_title--box my-4 text-center">
+          <h2 class="text-dark text-capitalize">Happy <span class="my-text-color">Clients says</span></h2>
+       </div>
+
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/user-1.png" class="p-2 client-img rounded-circle mx-auto border border-1 border-danger d-block my-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title my-text-color">Jhon Martin</h5>
+              <p class="card-text">I am so happy with Honda my Honda Ducati XDIAVEL S-73. Bikers Hub alwayes provide me great service. I dont have to worry about parts availability.</p>
+            </div>
+            <div class="card-footer mt-n5 bg-transparent border-0">
+              <p class="my-text-color mb-1">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </p>
+              <p class="text-primary fw-bolder">Banker</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/user-2.png" class="p-2 client-img rounded-circle mx-auto border border-1 border-danger d-block my-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title my-text-color">Wang Laichun</h5>
+              <p class="card-text">I have buyed my frist scooter from Bikers Hub. They are realy awsome. They probide great service evrytime.
+                They have guied me a lot to buy my frist scooter ever.
+              </p>
+            </div>
+            <div class="card-footer mt-n5 bg-transparent border-0">
+              <p class="my-text-color mb-1">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </p>
+              <p class="text-primary fw-bolder">Women Right Actevist</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="images/user-3.jpg" class="p-2 client-img rounded-circle mx-auto border border-1 border-danger d-block my-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title my-text-color">Sophia Isabella</h5>
+              <p class="card-text">What a service. I have ordered a bike just tow day before  mt-n5for my elder son birthday. Bikers Hub just delivered it on time.</p>
+            </div>
+            <div class="card-footer mt-n5 bg-transparent border-0">
+              <p class="my-text-color mb-1">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </p>
+              <p class="text-primary fw-bolder">Shop Keeper</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </section>
+
+      <!-- Frequently Asked Questions -->
+      <section class="container mt-4">
+
+        <div class="inner_title--box my-4 text-center">
+          <h2 class="text-dark text-capitalize">Frequently Asked <span class="my-text-color">Questions</span></h2>
+       </div>
+
+       <div class="row g-5 mt-1 d-flex">
+         <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <img class="img-fluid" src="images/faq.png" alt="">
+         </div>
+         <div class="col-lg-6 col-md-12 col-sm-12 col-12 align-self-center">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button my-text-color fw-bold text-capitalize shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  honda cbr300r engine specifications
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Engine Type. <strong>286 CC</strong> liquid-cooled single-cylinder four-stroke.
+                  Bore And Stroke. 76mm x 63mm.
+                  Induction. PGM-FI, 38mm throttle body.
+                  Ignition. Computer-controlled digital transistorized with electronic advance.
+                  Compression Ratio. 10.7:1.
+                  Valve Train. DOHC; four valves per cylinder.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed my-text-color fw-bold text-capitalize shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What CBR stands for?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Chemical, Biological, and Radiological. CBR.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed my-text-color fw-bold text-capitalize shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is CBR traffic?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Constant Bit Rate (CBR)
+                  <br>
+                  The CBR service category is used for connections that transport traffic at a constant bit rate, where there is an inherent reliance on time synchronisation between the traffic source and destination.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed my-text-color fw-bold text-capitalize shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  What is the required tyre air pressure for Honda CBR300R?
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The required tyre air pressure for Honda CBR300R 29PSI.
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+       </div>
+
+      </section>
+    </main>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
