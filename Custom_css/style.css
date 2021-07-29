@@ -47,8 +47,18 @@ body{
 .my-text-color{
     color:#E76F51;
 }
-
-
+.inner_title--box h2{
+    font-weight:600;
+    font-size:48px;
+    line-height:58px;
+    color:#0D0925;
+}
+.inner_title--box{
+    width: 100%;
+}
+.w-90{
+    width: 90%;
+}
 .my-f-size{
     font-size: 20px !important;
 }
